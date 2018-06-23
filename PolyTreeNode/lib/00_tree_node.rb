@@ -67,5 +67,9 @@ class PolyTreeNode
     nil 
   end
   
+  def inspect
+    "#<PolyTreeNode: pos=#{value}>"
+  end
+  
   
 end
